@@ -72,6 +72,7 @@
     <Content Include="css\normalize.min.css" />
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
+    <Content Include="Global.asax" />
     <Content Include="humans.txt" />
     <Content Include="js\main.js" />
     <Content Include="js\vendor\jquery-1.11.1.min.js" />
@@ -95,6 +96,9 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

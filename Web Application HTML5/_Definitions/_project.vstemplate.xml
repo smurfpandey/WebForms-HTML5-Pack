@@ -17,7 +17,7 @@
     <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
   </TemplateData>
   <TemplateContent>
-    <Project TargetFileName="Web_Application_HTML5.csproj" File="Web_Application_HTML5.csproj" ReplaceParameters="true">      
-    </Project>
+    <Project TargetFileName="$projectname$.csproj" File="Web_Application_HTML5.csproj" ReplaceParameters="true"></Project>
+    
   </TemplateContent>
 </VSTemplate>

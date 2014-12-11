@@ -6,6 +6,6 @@
   -->
   <TemplateInfo Path="CSharp\Web\Custom"/>
   <Replacements Include="*.*" Exclude="*.vstemplate;*.csproj;*.fsproj;*.vbproj;*.jpg;*.png;*.ico;_preprocess.xml;_project.vstemplate.xml">
-    <add key="Web_Application_HTML5" value="$safeprojectname$"/>
+    <add key="WebApplication1" value="$safeprojectname$"/>
   </Replacements>
 </Preprocess>

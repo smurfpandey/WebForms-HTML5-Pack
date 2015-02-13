@@ -78,12 +78,15 @@
     <Content Include="humans.txt" />
     <Content Include="js\main.js" />
     <Content Include="js\plugins.js" />
-    <Content Include="js\vendor\jquery-1.11.1.min.js" />
+    <Content Include="js\vendor\jquery-1.11.2.min.js" />
+    <Content Include="js\vendor\modernizr-2.8.3.min.js" />
     <Content Include="robots.txt" />
     <Content Include="sw-file-icon.png" />
     <Content Include="tile-wide.png" />
     <Content Include="tile.png" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="_Definitions\_project.vstemplate.xml" />
     <Content Include="_preprocess.xml" />
   </ItemGroup>

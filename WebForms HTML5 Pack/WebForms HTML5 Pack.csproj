@@ -96,8 +96,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <TemplateReference Include="Web Application HTML5.csproj">
-      <PathToProject>../Web%20Application%20HTML5/Web%20Application%20HTML5.csproj</PathToProject>
+    <TemplateReference Include="Web_Application_HTML5.csproj">
+      <PathToProject>../Web%20Application%20HTML5/Web_Application_HTML5.csproj</PathToProject>
     </TemplateReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

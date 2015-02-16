@@ -19,7 +19,7 @@ namespace Web_Application_HTML5
 
         void RegisterCustomRoutes(RouteCollection routes)
         {
-            routes.MapPageRoute("RemoveASPX","{filename}","~/{filename}.aspx"
+            routes.MapPageRoute("RemoveASPX", "{filename}", "~/{filename}.aspx"
             );
         }
 
@@ -51,6 +51,13 @@ namespace Web_Application_HTML5
         protected void Application_End(object sender, EventArgs e)
         {
 
+        }
+
+        protected void Application_PreSendRequestHeaders()
+        {
+            Response.Headers.Remove("Server");
+            Response.Headers.Remove("X-AspNet-Version");
+            Response.Headers.Remove("X-AspNetMvc-Version");
         }
     }
 }
